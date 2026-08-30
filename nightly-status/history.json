@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T10:45:16.189092+00:00",
+  "last_updated": "2026-08-30T20:21:38.470335+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-08-30",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/priba/tensordict/actions/runs/33307217653",
       "orchestrator_run_id": 33307217653,
       "workflows": {
