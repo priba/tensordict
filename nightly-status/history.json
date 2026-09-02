@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T20:22:22.165415+00:00",
+  "last_updated": "2026-09-02T09:59:44.803729+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -10,15 +10,68 @@
       "success_rate": 100.0
     },
     "last_30_days": {
-      "days": 19,
-      "runs_with_data": 10,
-      "total_workflow_runs": 60,
-      "total_success": 60,
+      "days": 20,
+      "runs_with_data": 11,
+      "total_workflow_runs": 66,
+      "total_success": 66,
       "total_failure": 0,
       "success_rate": 100.0
     }
   },
   "history": [
+    {
+      "date": "2026-09-02",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/priba/tensordict/actions/runs/33617080780",
+      "orchestrator_run_id": 33617080780,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/priba/tensordict/actions/runs/33617080780/job/100205330945",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/priba/tensordict/actions/runs/33617080780/job/100205329579",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/priba/tensordict/actions/runs/33617080780/job/100205329731",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/priba/tensordict/actions/runs/33617080780/job/100205329681",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/priba/tensordict/actions/runs/33617080780/job/100205329713",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/priba/tensordict/actions/runs/33617080780/job/100205329555",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-09-01",
       "orchestrator_ran": true,
